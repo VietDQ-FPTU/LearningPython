@@ -1,0 +1,10 @@
+a = int(input('nhap 1 so thuc: '))
+print(a)
+#nhap nhieu so cung 1 luc
+s = input('nhap 3 so: ')
+print(s)
+a = s.split()
+print(a)
+b, c, d = map(int, a)
+print(type(b))
+print(b, c, d)
